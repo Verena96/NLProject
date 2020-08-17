@@ -4,3 +4,7 @@ The purpose is to detect sentiment from the Copom's minutes, in order to check i
 
 # Data
 All PDF files from Copom meetings, since 2016.
+
+# Predictions
+I have used a labeled database from data.world, with economic news classified according to the text sentiment.Then I used a logistic regression to build the machine learning algorithm, and updated the weights and added vocabulary to make the algorithm more specific for BCB communications.
+
